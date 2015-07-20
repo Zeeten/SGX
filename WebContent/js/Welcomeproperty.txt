@@ -1,0 +1,65 @@
+#Welcome Form useCase 
+welcome.prince=&nbsp;Principal Employers
+welcome.sagency=&nbsp;Service Providers
+welcome.sguards=&nbsp;Security Personnel
+welcome.prince=&nbsp;Principal Employers
+welcome.sagency=&nbsp;Service Providers
+welcome.sguards=&nbsp;Security Personnel
+welcome.people=&nbsp;People
+welcome.pe=&nbsp;Principal Employers
+welcome.sa=&nbsp;eGod
+welcome.sg=&nbsp;Security Personnel
+welcome.hk=&nbsp;House Keepers
+welcome.facility=&nbsp;Facilitators
+welcome.fm=&nbsp;Service Providers
+welcome.senior=&nbsp;People & Sr Citizens
+welcome.others=&nbsp;angoothachap.com
+welcome.training=&nbsp;Training
+welcome.elect=&nbsp;Select Language
+welcome.jobs=&nbsp;Jobs
+welcome.faq=&nbsp;FAQ
+welcome.epfo=&nbsp;EPFO
+welcome.esic=&nbsp;ESIC
+welcome.wca=&nbsp;WCA
+welcome.labor=&nbsp;ALC
+welcome.police=&nbsp;Police
+welcome.dg=&nbsp;DGR
+welcome.investment=&nbsp;Tenders & Quotes
+welcome.news=&nbsp;News
+welcome.psar=&nbsp;PSAR Act 2005
+welcome.advertise=&nbsp;Advertisement
+welcome.grievance=&nbsp;Grievances
+welcome.be=Beneficiaries
+welcome.gov=Government Support
+welcome.gov1=<img src="images/chakra.gif"  border="0" width="163" height="20"/>
+welcome.pub=&nbsp;Public
+welcome.sup= SGX Support
+welcome.footer=Copyright 2007 www.sgx.co.in All Rights Reserved.
+welcome.footer1=Site best viewed at 1024 X 768 monitor resolution.
+welcome.sms=<img src="images/sms.gif" width="28" height="46"/>&nbsp;SMS
+welcome.email=<img src="images/mail.png" width="34" height="35"/>&nbsp;E-Mail
+welcome.descriptionpartone=<b>SGX</b> enables all Principal Employers to get spectacled
+welcome.descriptionparttwo=<b>SGX</b> helps Certified Security Agencies in correct &
+welcome.descriptionpartthree=<b>SGX</b>  e-verifies & trains all Certified Security 
+welcome.descriptionpartfour=<b>SGX</b> is for Reshaping  traditional Govt Support,
+welcome.discription= & lensed to view various Reports & Returns and be Secured right from Acceptance Stage to the Performance Stage of Security & Allied Services at his premises.
+welcome.discription1=efficient discharge of the Security Services and Foolproof performance of the same, by the Security Personnel  so  deployed  through  its  e-Supervision system.
+welcome.discription2=<b>SGX</b> is a first of its kind unique media in the world, creating a Security Umbrella, for People of India, networking them, their Domestic Help(s), with Law Enforcers & Protectors, Security Providers, Security Givers and their near & dear ones for ultimate Security for themselves.
+welcome.discription3= & Allied Personnel, and also protects their interests respectively, from Minute to Minute,and avoid loss of unaccounted salary for Days / Weeks, and Provident Fund to the tune of Months & Months together.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+welcome.discription4= into  a never before so quick, transparent & fool proof online integrated support of various Departments of Central / State Govt(s), enabling en-mass State welfare activities of people from all walks of life.
+welcome.tasty=News
+welcome.capsi=CAPSI is dedicated to promoting the interests<br>of its members and the safety and<br> security of all Indians.
+welcome.india=<img src="images/animated india flag.gif" width="68" height="50"/>
+welcome.testi=Testimonials
+welcome.sen=Domestic Help(s)
+welcome.read=Read More>>
+welcome.being=Being Updated>>
+welcome.sgxAdd=SGX 
+welcome.sgxCapsi=CAPSI
+welcome.ZeeTenService=ZeeTen Security & Detective Services 
+welcome.3rd=3rd NATIONAL CONFERENCE AT BANGLORE
+welcome.selectLang=Select language
+welcome.employees=&nbsp;Employees
+welcome.character=&nbsp;Verify Character
+welcome.audit=Security Audit
+

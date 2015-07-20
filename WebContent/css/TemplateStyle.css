@@ -1,0 +1,265 @@
+/*
+*author Vishal Doshi
+*/
+body,  tr, td,  select, checkbox,input    {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+body,  select, checkbox,input    {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+body.top {
+	background-color: #355592;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+body.topPanel {
+	background-color: #355592;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+body.leftPanel,body.leftPanel table, body.leftPanel tr, body.leftPanel td {
+	background-color:#355592 ;/*#355592*/
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	}
+
+body.leftPanela,body.leftPanela table, body.leftPanela tr, body.leftPanela td {
+	background-color:#355592 ;/*#355592*/
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	}
+
+body.bottom, body.bottom table, body.bottom tr, body.bottom td{
+	background-color: #355592;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+/* Images used in top panel as background image*/
+td.topLeftImage{
+	background-image : url(../images/back_new.gif);
+}
+td.toprightImage{
+
+	background-image : url(../images/back_new.gif);
+}
+td.logo{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+/* Navigation Panel on the Left  used in javascript*/
+
+/*login font style*/
+
+td.loginfont{
+font-size: 12px; 
+font-family: Arial, Helvetica, sans-serif; 
+color: #000000;
+ 
+}
+
+P.navigationOption
+{
+
+}
+P.navigationRoot
+{
+	font-weight: normal;
+}
+/* Navigation Panel on the Top */
+tr.topPanelMainPanel, tr.topPanelMainPanel td
+{
+	background-color: #ffffff;/*#355592*/
+	color: #FFFFFF;
+}
+tr.topPanelSecondPanel, tr.topPanelSecondPanel td
+{
+	background-color: #ffffff;/*#CCCCCC*/
+	color: #ffffff;
+}
+
+td.toppanelleftImage{
+	background-image : url(../images/territiary_nav_left.gif);
+}
+td.toppanelrightftImage{
+	background-image : url(../images/territiary_nav_right.gif);
+	}
+
+table.topPanelternav{
+	color: #ffffff;
+}
+table.topPanelternav td.topPanelternav{
+	color: #ffffff;
+	background-color : #355592;/*#355592*/
+}
+
+/*titlepanel product name class*/
+td.whitetitle
+{
+font-size: 27px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: bold; 
+color: #ffffff;
+}
+td.blacktitle
+{
+font-family: Arial;
+font-size: 27px;
+font-weight: bold;
+color: #000000;
+}
+
+/* Site Text Links */
+a:visited{	color: #ffffff;text-decoration:none}
+a:link{color: #050505;text-decoration:none}
+a:hover {	text-decoration:none;}
+
+/*img decoration*/
+img { 
+border-style: none; 
+ } 
+
+/* To Panel Links */
+
+table.topPanelternav a:visited{	color: #FFFFFF;text-decoration:none}
+table.topPanelternav a:link{color: #FFFFFF;text-decoration:none}
+table.topPanelternav a:hover {	text-decoration:underline;	color:#ffffff;}
+
+/* left  Panel Links */
+
+table.LeftPanelnav a:visited{	color: #FFFFFF;text-decoration:none}
+table.LeftPanelnav a:link{color: #FFFFFF;text-decoration:none}
+table.LeftPanelnav a:hover {	text-decoration:underline;	color:#ffffff; }
+table.LeftPanelnav a:active {	text-decoration:underline;	color:#ffffff; font-weight: bold;  font-size: 13px; }
+
+/* Main Panel Heading */
+tr.headerRow {
+	background: #355592;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+}
+td.headerRow {
+	background: #355592;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* Main Panel Buttons */
+tr.buttonRow {
+	background: #ffffff;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+td.buttonRow {
+	background: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+tr.buttonRowtop {
+	background: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+
+td.buttonRowtop {
+	background: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+
+/* Main Panel Alternate Rows */
+tr.contentHeaderRow{
+	color: black;
+	font-weight: bold;
+	background: #355592;
+	font-size: 12px;
+}
+td.contentHeaderRow{
+	color: black;
+	font-weight: bold;
+	background: #355592;
+	font-size: 12px;
+}
+
+
+/* Main Panel Alternate Rows */
+tr.alternateRow1{ 
+	color: black;
+	background: #EFEFEF;
+}
+td.alternateRow1{
+	color: black;
+	background: #EFEFEF;
+}
+tr.alternateRow2{
+	color: black;
+	background: white;
+}
+td.alternateRow2{
+	color: black;
+	background: white;
+}
+/* Main Panel Table containing Alternate Rows  */
+table.content{
+	padding-left : 4;
+	padding-right : 4;
+}
+
+
+/* Main Panel Separator Class  */
+table.separatorLine, table.separatorLine tr, table.separatorLine tr td{
+	background: #355592;
+}
+
+
+/* For the Menu Buttons */
+
+.round {
+	line-height:20px;
+	background:url('../images/background1.jpg') no-repeat right top; 
+	padding-left:30px; 
+	vertical-align:none;
+	display:block; /*opera*/
+	display:inline-block; /*ie*/
+	display:-moz-inline-box;  /*ff*/
+	text-decoration: none;
+	text-align:left;
+	font-family:Arial,Helvetica,Verdana;
+	font-size:7.90pt;
+	color: #ffffff;
+	font-weight:bold;
+	width:140;
+}
+
+.roundleft {
+	line-height:20px;
+	background:url('../images/background.jpg') no-repeat right top; 
+	padding-left:20px; 
+	vertical-align:none;
+	display:block; /*opera*/
+	display:inline-block; /*ie*/
+	display:-moz-inline-box;  /*ff*/
+	text-decoration: none;
+	text-align:left;
+	font-family:Arial,Helvetica,Verdana;
+	font-size:7.90pt;
+	color: #ffffff;
+	font-weight:bold;
+	width:160;
+}
+
+button {border:none; background:transparent; width:0; overflow:visible; white-space:wrap; cursor:auto;}
+

@@ -1,0 +1,144 @@
+.LetterHeadTable1
+ {
+ border-color:#800000;
+ width: 20%;
+ border-collapse:collapse;
+ border: 1;
+ 
+ }
+ 
+ 
+ .LetterHead10ptcenterRedTBLR
+	{
+	font-size: 10pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #800000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	}
+	
+	.LetterHead8ptcenterRedBLR
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #800000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	
+	}
+	
+	
+	
+	
+	.LetterHead8ptcenterBlueBLR
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	
+	}
+	.LetterHead8ptleftBlueBLR
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	
+	}
+	
+	
+	.LetterHead10ptcenterBlueBLR
+	{
+	font-size: 10pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	
+	}
+	
+	
+	
+	
+	
+	.LetterHead8ptLeftBlue
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	
+	}
+	.LetterHead8ptLeftBlueWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	border-color: #000000;
+	}
+	.LetterHead8ptCenterBlueWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	border-color: #000000;
+	}
+	
+	.LetterHead8ptLeftRed
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #800000;
+	
+	}
+	
+	
+	.LetterHead10ptLeftBlue
+	{
+	font-size: 10pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	
+	}
+	
+ .LetterHeadSubHeading
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	border-color: #000000;
+	
+	}
+	
+	
+	

@@ -1,0 +1,154 @@
+package in.co.sunrays.wsx.controller;
+
+import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+import in.co.sunrays.common.controller.BaseCtl;
+import in.co.sunrays.common.model.BaseModel;
+import in.co.sunrays.util.AccessUtility;
+import in.co.sunrays.util.DataUtility;
+import in.co.sunrays.util.PropertyReader;
+import in.co.sunrays.util.ServletUtility;
+import in.co.sunrays.wsx.exception.ApplicationException;
+import in.co.sunrays.wsx.model.AppRole;
+import in.co.sunrays.wsx.model.AttendanceSheetModel;
+import in.co.sunrays.wsx.model.StudentAttendanceModel;
+
+public class AttendanceSheetListCtl extends BaseCtl {
+	/**
+	 * Logger to log the messages.
+	 */
+
+	private static Logger log = Logger
+			.getLogger(AttendanceSheetListCtl.class);
+	
+	
+	@Override
+	protected void preload(HttpServletRequest request) {
+
+		LinkedHashMap<String, String> typeMap = new LinkedHashMap<String, String>();
+		typeMap.put("", "--Select--");
+		typeMap.put(String.valueOf(AppRole.STUDENT), "Trainee");
+		typeMap.put(String.valueOf(AppRole.STAFF), "Trainer");
+		request.setAttribute("typeMap", typeMap);
+	}
+
+	@Override
+	protected BaseModel populateModel(HttpServletRequest request) {
+
+		AttendanceSheetModel model = new AttendanceSheetModel();
+
+		model.setCode(DataUtility.getString(request.getParameter("code")));
+		model.setRoleId(DataUtility.getLong(request.getParameter("roleId")));
+		model.setName(DataUtility.getString(request.getParameter("name")));
+		model.setYear(DataUtility.getString(request.getParameter("year")));
+		System.out.println("month"+DataUtility.getString(request.getParameter("month")));
+		model.setMonth(DataUtility.getString(request.getParameter("month")));
+		return model;
+	}
+
+	/**
+	 * Handles GET request.
+	 * 
+	 */
+	@Override
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+
+		log.debug("AttendanceSheetListCtl doGet Start");
+
+		List list = null;
+
+		int pageNo = DataUtility.getInt(request.getParameter("pageNo"));
+		int pageSize = DataUtility.getInt(request.getParameter("pageSize"));
+
+		pageSize = (pageSize == 0) ? DataUtility.getInt(PropertyReader
+				.getValue("page.size")) : pageSize;
+
+		AttendanceSheetModel model = (AttendanceSheetModel) populateModel(request);
+		
+		// Global filter
+				model.setCollegeId(ServletUtility.getUserModel(request).getCollegeId());
+		String op = DataUtility.getString(request.getParameter("operation"));
+
+		// get the selected checkbox ids array for delete list
+		String[] ids = request.getParameterValues("ids");
+
+		try {
+
+			if (OP_SEARCH.equalsIgnoreCase(op) || "Next".equalsIgnoreCase(op)
+					|| "Previous".equalsIgnoreCase(op)) {
+
+				if (OP_SEARCH.equalsIgnoreCase(op)) {
+					pageNo = 1;
+				} else if (OP_NEXT.equalsIgnoreCase(op)) {
+					pageNo++;
+				} else if (OP_PREVIOUS.equalsIgnoreCase(op)) {
+					pageNo--;
+				}
+
+			} else if (OP_NEW.equalsIgnoreCase(op)) {
+				ServletUtility.redirect(ORSView.STUDENTATTENDANCE_CTL, request,
+						response);
+				return;
+			} else if (OP_DELETE.equalsIgnoreCase(op)) {
+				pageNo = 1;
+				if (ids != null && ids.length > 0) {
+					StudentAttendanceModel deletemodel = new StudentAttendanceModel();
+					for (String id : ids) {
+						deletemodel.setId(DataUtility.getInt(id));
+						deletemodel.delete();
+					}
+				} else {
+					ServletUtility.setErrorMessage(
+							"Select at least one record", request);
+				}
+			}
+
+			pageNo = (pageNo == 0) ? 1 : pageNo;
+			list = model.search(pageNo, pageSize);
+			ServletUtility.setList(list, request);
+			if (list == null || list.size() == 0) {
+				ServletUtility.setErrorMessage("No record found ", request);
+			}
+			ServletUtility.setList(list, request);
+
+			ServletUtility.setPageNo(pageNo, request);
+			ServletUtility.setPageSize(pageSize, request);
+			
+			ServletUtility.forwardView(getView(), request, response);
+			 
+
+		} catch (ApplicationException e) {
+			log.error(e);
+			ServletUtility.handleException(e, request, response);
+			return;
+		}
+
+		log.debug("AttendanceSheetListCtl doGet End");
+	}
+
+	@Override
+	protected String getView() {
+		return ORSView.ATTENDANCESHEET_LIST_VIEW;
+	}
+
+	@Override
+	protected void setAccess(HttpServletRequest request) {
+		super.setAccess(request);
+		AccessUtility.setWriteAccess("" + AppRole.SUPER_ADMIN + ""
+				+ AppRole.ADMIN, request);
+
+		AccessUtility.setWriteAccess("" + AppRole.SUPER_ADMIN + ""
+				+ AppRole.ADMIN, request);
+
+	}
+}
+

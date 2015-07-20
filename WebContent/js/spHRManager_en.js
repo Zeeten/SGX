@@ -1,0 +1,11 @@
+stm_bm(["menu4b6c",730,"","blank.gif",0,"","",0,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand",""],this);
+stm_bp("p0",[0,4,0,0,0,4,0,16,100,"",-2,"",-2,90,0,0,"#999999","transparent","",3,0,0,"#E6FAB4 #788C32 #788C32 #E6FAB4"]);
+stm_ai("p0i0",[0," Home Page ","","",-1,-1,0,"displayHomePage.do","_self","","","","",0,0,0,"","",0,0,0,0,1,"#a84200",1,"#005591",0,"bg_24.gif","",3,3,1,1,"#95C5D8","#CFE9F4","#003399","#FFFFFF","8pt Verdana","8pt Verdana",0,0],0,4);
+stm_aix("p0i1","p0i0",[0," Help","","",-1,-1,0,"","_self","","","","",0,0,0,"","",0,0,0,1,0,"#FFFFFF"],60,0);
+stm_aix("p0i3","p0i0",[0," Logs"],100,0);
+stm_bp("p1",[1,4,0,0,0,0,0,0,100,"stEffect(\"slip\")",-2,"stEffect(\"slip\")",-2,55,0,0,"#999999","transparent","",3,0,0,"#000000"]);
+stm_aix("p1i0","p0i0",[0," LogOut","","",-1,-1,0,"displayLoginAction.do?operation=LogOut","_self","","","","",0,0,0,"","",0,0,0,1,0,"#a84200",0,"#005591"," 8pt Verdana"],120,0);
+stm_aix("p1i0","p0i0",[0," Home Page","","",-1,-1,0,"displayHomePage.do","_self","","","","",0,0,0,"","",0,0,0,1,0,"#a84200",0,"#005591", "8pt Verdana"],120,0);
+stm_aix("p1i0","p0i0",[0," Change Password","","",-1,-1,0,"displayChangePassword.do","_self","","","","",0,0,0,"","",0,0,0,1,0,"#a84200",0,"#005591","8pt Verdana"],120,0);
+stm_ep();
+stm_em();

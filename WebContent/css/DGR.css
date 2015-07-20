@@ -1,0 +1,297 @@
+body{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	background:#FFF;
+}
+h1, h2, h3 , h4{
+	margin:0;
+	padding:0;
+}
+p{
+	margin:1em 0;
+	padding:0;
+}
+h1{
+	color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+}
+h2{
+	font-size:14px;
+	color:#C94215;
+}
+h3{
+	font-size:12px;
+	color:#616161;
+}
+table, td, select, input, textarea{
+	font: 100% Tahoma, Arial, Helvetica, sans-serif;
+	border:1;	
+}
+img{border:0;}
+/* ---------------------------------- container ---------------------------------- */
+#container{
+	width:780px;
+	padding:0px;
+	margin:0px;
+	margin-right:auto;
+	margin-left:auto;
+	background:#FFF;
+}
+/* ---------------------------------- logotip ---------------------------------- */
+#header {	
+	vertical-align:top;
+}
+#header_images_1 {
+	background:url(../images/header_images_left.JPG) no-repeat;
+	width:30px;
+	height:309px;
+}
+#header_images_2 {
+	background:url(../images/header_images.jpg) no-repeat;
+	height:275px;
+	width:490px;
+}
+/* ---------------------------------- logotip ---------------------------------- */
+div#logotip{
+	display: block;
+	width:260px;
+	background:#FFF;
+}
+h1#logo{
+	display:block;
+	background:url(../images/logotip.gif) no-repeat;
+}
+h1#logo a{
+	display:block;
+	height:130px;
+}
+/* ---------------------------------- top_menu ---------------------------------- */
+div#top_menu {
+	padding-top:14px;
+	padding-bottom:14px;
+	color: #777;
+	text-align:right;
+	text-decoration: none;
+	font-weight:bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin-right:15px;
+}
+div#top_menu a{	
+	margin-left:15px;
+	margin-right:15px;
+	color: #777;
+	text-decoration: none;
+	font-weight:normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+div#top_menu a:hover{
+	text-decoration:underline;
+}
+/* ---------------------------------- menu ---------------------------------- */
+div#menu {
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #2660B7;
+	text-decoration: none;
+	font-weight:bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	background:#E7E7E7;
+	text-align:center;
+}
+div#menu a{	
+	margin-left:1px;
+	margin-right:12px;
+	color: #FFF;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-weight: normal;
+	font-size: 10px;
+}
+div#menu a:hover{
+	text-decoration:underline;
+}
+/* ---------------------------------- navigation ---------------------------------- */
+div#navlist {
+	margin:7px;
+	margin-left: 4px;
+}
+div#navlist img {
+	background:url(../images/menu_line.gif);
+	height:2px;
+	width:70%;
+}
+div#navlist a {
+	padding-left:30px;
+	padding-top:8px;
+	padding-bottom:9px;
+	display: block;
+	color:#838B8E;
+	text-align:left;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-weight: bold;
+	font-size: 10px;
+	background:url(../images/menu_link.gif) no-repeat center left;
+}
+div#navlist a:hover {
+	padding-left:45px;
+	font-weight: bold;
+	background:url(../images/menu_hover.GIF) no-repeat center left;
+}
+/* ---------------------------------- main ---------------------------------- */
+#main {
+	padding: 0px;
+	margin: 0px;
+	text-align:left;
+}
+.main_nav {
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#7A7A7A;
+}
+.main_nav_2 {
+	vertical-align: top;
+	width:290px;
+}
+#main_text {
+	padding: 10px;
+	padding-left:20px;
+}
+#heading2 {
+	background:url(../images/heading_text_1.gif) no-repeat left;
+	height:20px;
+	margin-left:30px;
+}
+#heading3 {
+	background:url(../images/heading_text_2.gif) no-repeat left;
+	height:20px;
+	margin-left:30px;
+}
+#head_main {
+	display: block;
+	background:url(../images/menu_back.GIF);
+	height:23px;
+	padding-top:7px;
+	padding-left:30px;
+}
+#head_main_text {	
+	color:#76A700;
+	font-size: 11px;
+	padding-left: 40px;
+}
+/* ---------------------------------- main_url ---------------------------------- */
+p#link a{
+	color:#7A7A7A;
+	font-weight:normal;
+	font-size:11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+}
+p#link a:hover{
+	text-decoration:underline;
+}
+/* ---------------------------------- main_block ---------------------------------- */
+#back_line{
+	border-width: 1px;
+	border-color: #FFF #FFF #730000 #FFF;
+	border-style: solid;	
+}
+#block_heading_text {
+	background:url(../images/block_heading_text.gif) no-repeat;
+	height:20px;
+	margin-left:20px;
+}
+#main_text_block {
+	padding:10px
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left:130px;
+	background:url(../images/images.jpg) no-repeat center left;
+	margin-left:30px;
+	
+}
+/* ---------------------------------- box ---------------------------------- */
+#box{
+	color:#767676;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-left:40px;
+	padding-right:40px;
+}
+#box_head {
+	background:url(../images/box_head.gif) no-repeat;
+	height:10px;
+}
+#box_center {
+	background:url(../images/box_back.gif);
+	padding:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+#box_footer {
+	background:url(../images/box_footer.gif) no-repeat;
+	height:10px;
+}
+#box1_center {
+	background:url(../images/box_back.gif);
+	padding:100px;
+	padding-left:20px;
+	padding-right:20px;
+}
+/* ---------------------------------- footer ---------------------------------- */
+#footer{
+	background:url(../images/footer.gif) no-repeat top;
+	padding-top:18px;
+	padding-bottom:10px;
+	padding-right:50px;
+	font-weight:bold;
+	color:#3E4038;
+	font-size:10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+    vertical-align: bottom;
+}
+/* ---------------------------------- text_decor ---------------------------------- */
+.underline {
+	text-decoration: underline;	
+}
+.white {
+	color:#FFF;
+}
+.blue {
+	color:#1749A9;
+}
+.red {
+	color:#C94215;
+}
+.yellow {
+	color:#CF971F;
+}
+.px11{
+	font-size:11px;
+}
+.green {
+	color:#78B639;
+}
+.black {
+	color:#616161;
+}
+
+.label {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Helvetica, Sans-Serif;
+	padding-left: 5px;
+}

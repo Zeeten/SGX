@@ -1,0 +1,159 @@
+.AgreementTable1
+ {
+ border-color: #000000;
+ width: 20%;
+ border-collapse:collapse;
+ border: 1;
+ 
+ }
+ 
+ .AgreementTable2
+ {
+ border-color: #000000;
+ width: 25%;
+ border-collapse:collapse;
+ border: 1;
+ 
+ }
+ 
+.Agreement8ptcenterRed
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #800000;
+	border-color: #000000;
+	}
+	.Agreement8ptcenterBlue
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	border-color: #000000;
+	}
+	.Agreement8ptLeftRed
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #800000;
+	border-color: #000000;
+	}
+.Agreement10ptcenterRed
+	{
+	font-size: 10pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #800000;
+	border-color: #000000;
+	}
+	.AgreementSubHeading
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	border-color: #000000;
+	
+	}
+	
+	.AgreementSubHeadingInRed
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #800000;
+	border-color: #000000;
+	
+	}
+	
+	
+	.AgreementTableReportHeading
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000000;
+	border-color: #000000;
+	}
+	.AgreementTextBlackCenterWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000000;
+	border-color: #000000;
+	}
+	.AgreementTextBlackCenterWithoutBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000000;
+	
+	}
+	.AgreementTextBlackLeftWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000000;
+	border-color: #000000;
+	}
+	.AgreementTextBlackLeftWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000000;
+	border-color: #000000;
+	}
+	
+	.AgreementButton1
+	{
+	font-size: 8pt;
+	font-family: Verdana;
+	color: #000080;
+	border-color: #000000;
+	}
+	.AgreementButtonRowCenter
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	
+	
+	}
+	  .popForAgreement{
+      position: fixed;
+      visibility: hidden;
+      overflow: auto;
+      border:1px solid #333;
+      padding:7px;
+      background: gray;
+      color: white;
+      font-weight: bold;
+      font-style:italic;
+      font-size:10pt;
+      font-family:verdana;
+      width:25%;
+      bottom: 0;
+      left: 0; 
+      z-index: 1;
+      white-space:nowrap;
+       }
+

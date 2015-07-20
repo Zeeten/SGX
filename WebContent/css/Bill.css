@@ -1,0 +1,186 @@
+.BillTable1
+ {
+ border-color: #000000;
+ width: 20%;
+ border-collapse:collapse;
+ border: 1;
+ }
+ 
+ .BillTable2
+ {
+ border-color: #000000;
+ width: 25%;
+ border-collapse:collapse;
+ border: 1;
+ }
+ 
+.Bill8ptcenterRed
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #800000;
+	border-color: #000000;
+	}
+	.Bill8ptcenterBlue
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	border-color: #000000;
+	}
+	.Bill8ptRightBlue
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: right;
+	color: #000080;
+	border-color: #000000;
+	}
+	.Bill8ptLeftRed
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #800000;
+	border-color: #000000;
+	}
+	.Bill8ptLeftBlue
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	border-color: #000000;
+	}
+.Bill10ptcenterRed
+	{
+	font-size: 10pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #800000;
+	border-color: #000000;
+	}
+	.BillSubHeading
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	border-color: #000000;
+	}
+	.BillSubHeadingCenter
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	border-color: #000000;
+	}
+	.BillSubHeadingBottomBorderless
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000080;
+	bordercolorlight :#FFFFFF; 
+	bordercolordark :#FFFFFF;
+	bgcolor :#FFFFFF;
+	border: 0px solid #FFFFFF;
+	}
+	.BillSubHeadingInRed
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #800000;
+	border-color: #000000;
+	
+	}
+	
+	
+	.BillTableReportHeading
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000000;
+	border-color: #000000;
+	}
+	.BillTextBlackCenterWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000000;
+	border-color: #000000;
+	}
+	.BillTextBlackCenterWithoutBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000000;
+	
+	}
+	.BillTextBlackLeftWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000000;
+	border-color: #000000;
+	}
+	.BillTextBlackRightWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: right;
+	color: #000000;
+	border-color: #000000;
+	}
+	.BillTextBlackLeftWithBorder
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: left;
+	color: #000000;
+	border-color: #000000;
+	}
+	
+	.BillButton1
+	{
+	font-size: 8pt;
+	font-family: Verdana;
+	color: #000080;
+	border-color: #000000;
+	}
+	.BillButtonRowCenter
+	{
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana;
+	text-align: center;
+	color: #000080;
+	
+	
+	}
+	 
+

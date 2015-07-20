@@ -1,0 +1,39 @@
+
+
+.balloonstyle{
+position:absolute;
+top: -500px;
+left: 0;
+padding: 5px;
+visibility: hidden;
+border:1px solid black;
+font:normal 12px Verdana;
+line-height: 18px;
+z-index: 100;
+background-color: white;
+width: 200px;
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135,Strength=5);
+}
+
+#arrowhead{
+z-index: 99;
+position:absolute;
+top: -500px;
+left: 0;
+visibility: hidden;
+}
+
+
+
+#toolTipBox {
+display: none;
+padding: 5;
+font-size: 12px;
+border: black solid 1px;
+font-family: verdana;
+position: absolute;
+background-color: #BAB7BF;
+color: 000000;
+}
+
+

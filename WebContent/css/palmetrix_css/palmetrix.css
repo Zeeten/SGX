@@ -1,0 +1,199 @@
+body {
+	margin-left: 0px;
+	margin-top: 00px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url(../../images/PalmetrixPage/bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#FFFFFF;
+}
+.text_content {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#303030;
+	line-height:16px;
+	text-align:justify;
+}
+.text_red {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#41030c;
+}
+a:link {
+	text-decoration: none;
+		color: #B01D24;
+}
+a:visited {
+	text-decoration: none;
+	color: #B01D24;
+}
+a:active {
+	text-decoration: none;
+	color: #B01D24;
+}
+a:hover {
+	text-decoration: underline;
+	color: #B01D24;
+}
+.link_top {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.link_top:link {
+	text-decoration: none;
+		color: #FFFFFF;
+}
+.link_top:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.link_top:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.link_top:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.link_bene2 {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+.link_bene2:link {
+	text-decoration: none;
+		color: #FFFFFF;
+}
+.link_bene2:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.link_bene2:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.link_bene2:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.link_bene {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+.form_top {background-color:#41020B; border:0px; height:20px; color:#a08186; font-family:Arial, Helvetica, sans-serif; font-size:11px; margin-top:5px;}
+.form_egod {background-color:#ffffff; width:160px; border:0px; height:16px; color:#a08186; font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+.form_police {background-color:#ffffff; width:197px; border:1px solid #d3d3d3; height:16px; color:#a08186; font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+.form_splash {background-color:#ffffff; width:220px; border:1px solid #d3d3d3; height:16px; color:#5f020e; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;}
+.form_splash2 {background-color:#ffffff; width:150px; border:1px solid #d3d3d3; height:16px; color:#5f020e; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;}
+
+.form_bene {background-color:#ffffff; width:147px; border:1px solid #7c7c7c; height:16px; color:#a08186; font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+
+
+.text_footer  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3c3c3c;
+}
+.text_footer a:link {
+	text-decoration: none;
+		color: #3c3c3c;
+}
+.text_footer a:visited {
+	text-decoration: none;
+	color: #3c3c3c;
+}
+.text_footer a:active {
+	text-decoration: none;
+	color: #3c3c3c;
+}
+.text_footer a:hover {
+	text-decoration: underline;
+	color: #3c3c3c;
+}
+.text_yellow {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ED9D0A;
+}
+.text_blue {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c7ddf3;
+}
+#############################################################
+/*#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30;}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+	}
+
+#sddm li a
+{	display: block;
+	margin: 0;
+	padding:0;
+	height:39px;
+	overflow: hidden;
+	background: #41030c;
+	color: #FFF;
+	background-repeat:no-repeat;
+	}
+#sddm li#about,
+#sddm  li#about a { width: 79px; background-image: url(images/home.gif);}
+#sddm  li#services,
+#sddm  li#services a.not { width: 128px; background-image: url(images/bene_1.gif);}
+#sddm  li#portfolio,
+#sddm  li#portfolio a.not2 { width: 179px; background-image: url(images/gov_1.gif);}
+#sddm  li#contact,
+#sddm  li#contact a.not3 { width: 128px; background-image: url(images/sgx_1.gif);}
+#sddm  li#others,
+#sddm  li#others a.not4 { width: 142px; background-image: url(images/others_1.gif);}
+#sddm  li#about2,
+#sddm  li#about2 a { width: 111px; background-image: url(images/about_us.gif);}
+#sddm li a:hover
+{	background: #5d020c;background-position: 0 -39px;}
+#sddm div
+{
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #5d020c;
+	border: 0px solid #5970B2;
+	background-color: #660f0b;
+	
+}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding-left:27px;
+		padding-top:3px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #5d020c;
+		color: #ffffff;
+		font: 11px arial;
+		background-image:url(images/bg_drop.jpg);
+		background-repeat:no-repeat;
+		width:150px;
+		height:22px;border-bottom:1px solid #813f46;}
+
+	#sddm div a:hover
+	{	background-image:url(images/bg_drop_2.jpg);
+		background-repeat:no-repeat;
+		color: #d14655}*/
+#############################################################

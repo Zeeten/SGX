@@ -1,0 +1,107 @@
+stm_bm(["menu4b6c",730,"","blank.gif",0,"","",0,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand",""],this);
+stm_bp("p0",[0,4,0,0,0,4,0,16,100,"",-2,"",-2,90,0,0,"#999999","transparent","",3,0,0,"#E6FAB4 #788C32 #788C32 #E6FAB4"]);
+stm_ai("p0i0",[0," Home Page ","","",-1,-1,0,"displayHomePage.do","_self","","","","",0,0,0,"","",10,9,0,0,1,"",0,"#a84200",0,"bg_24.gif","",3,3,1,1,"#95C5D8","#CFE9F4","#003399","#FFFFFF","8pt Verdana"," 8pt Verdana",0,0],0,24);
+stm_ai("p0i0",[0,"Profile","","",-1,-1,0,"","_self","","","","",0,0,0,"","",10,9,0,0,1,"",0,"#a84200",0,"bg_24.gif","",3,3,1,1,"#95C5D8","#CFE9F4","#003399","#FFFFFF","8pt Verdana"," 8pt Verdana",0,0],0,24);
+stm_bp("p1",[1,4,0,0,0,0,0,16,100,"stEffect(\"slip\")",-2,"stEffect(\"slip\")",-2,55,0,0,"#999999","transparent","",3,0,0,"#000000"]);
+stm_aix("p1i0","p0i0",[0," My Report","","",-1,-1,0,"displayPrincipalEmployerReport.do","_self","","","","",0,0,0,"","",12,9,0,0,1,"#FFFFFF",0,"#a84200",0,""]);
+stm_aix("p1i0","p0i0",[0," Change Password","","",-1,-1,0,"displayChangePassword.do","_self","","","","",0,0,0,"","",12,9,0,0,1,"#FFFFFF",0,"#a84200",0,""]);
+stm_bpx("p2","p1",[1,2]);
+stm_ep();
+stm_ep();
+stm_ai("p0i0",[0,"Location / Post","","",-1,-1,0,"","_self","","","","",0,0,0,"","",10,9,0,0,1,"",0,"#a84200",0,"bg_24.gif","",3,3,1,1,"#95C5D8","#CFE9F4","#003399","#FFFFFF","8pt Verdana"," 8pt Verdana",0,0],0,24);
+stm_bp("p1",[1,4,0,0,0,0,0,16,100,"stEffect(\"slip\")",-2,"stEffect(\"slip\")",-2,55,0,0,"#999999","transparent","",3,0,0,"#000000"]);
+stm_aix("p1i0","p0i0",[0," Location","","",-1,-1,0,"displayPrincipalLocationView.do","_self","","","","",0,0,0,"","",12,9,0,0,1,"#FFFFFF",0,"#a84200",0,""]);
+stm_bpx("p2","p1",[1,2]);
+stm_ep();
+stm_aix("p1i1","p1i0",[0," Post","","",-1,-1,0,"displayPrincipalEmployerForPostView.do?operation=view","_self","","","","",0,0,0,"","",12,9,0,0,1,"#FFFFFF",0,"#a84200",0,""]);
+stm_bpx("p3","p2",[]);
+stm_ep();
+stm_aix("p4i2","p1i1",[0," Attendance Style View","","",-1,-1,0,"displayActivateAttendanceStyleAction.do?operation=view"]);
+stm_ep();
+stm_aix("p0i4","p0i0",[0,"S.P.","","",-1,-1,0,"","_self","","","","",0,0,0,"","",8,9,0,0,1,"#9cc2c9",0,"#a81515"],0,24);
+stm_bpx("p8","p1",[]);
+stm_aix("p8i0","p1i0",[0," Add","","",-1,-1,0,"displayAddServiceProviderByPE.do","_self","","","","",0,0,0,"","",0,0,0,0,1,"#FFFFFF",0,"#a81515"]);
+
+
+stm_aix("p8i1","p8i0",[0," Update ","","",-1,-1,0,"displayUpdateSPAddedByPEAction.do","_self","","","","",0,0,0,"","",0,0,0,0,1,"#FFFFFF",0,"#a81515"]);
+stm_aix("p8i2","p8i0",[0," View","","",-1,-1,0,"displayPEAndSPListAction.do"]);
+stm_aix("p8i3","p1i0",[0," Corporate Employee ","","",-1,-1,0,"displayEmployeeList.do","_self","","","","",0,0,0,"","",16,9,0,0,1,"#FFFFFF",0,"#a81515"]);
+stm_aix("p8i5","p1i0",[0," Character Verification","","",-1,-1,0,""]);
+stm_bpx("p8","p1",[1,2,0,0,0,0,0,0]);
+stm_aix("p8i5","p1i0",[0," Add Records","","",-1,-1,0,""]);
+stm_bpx("p8","p1",[1,2,0,0,0,0,0,0]);
+stm_aix("p8i0","p0i0",[0," Exiting Employee","","",-1,-1,0,"displayCharacterVerificationEmployeeSearch.do?hiddenOperation=Add&empType=ExistingEmployee"]);
+stm_aix("p8i1","p1i0",[0," Ex Employee","","",-1,-1,0,"displayCharacterVerificationEmployeeSearch.do?hiddenOperation=Add&empType=Ex-Employee"]);
+stm_ep();
+stm_aix("p8i5","p1i0",[0," Forwarded Records","","",-1,-1,0,""]);
+stm_bpx("p8","p1",[1,2,0,0,0,0,0,0]);
+stm_aix("p8i1","p1i0",[0," Exiting Employee ","","",-1,-1,0,"displayCharacterVerificationEmployeeSearch.do?hiddenOperation=Update&empType=ExistingEmployee"]);
+stm_aix("p8i1","p1i0",[0," Ex Employee","","",-1,-1,0,"displayCharacterVerificationEmployeeSearch.do?hiddenOperation=Update&empType=Ex-Employee"]);
+stm_ep();
+stm_aix("p8i5","p1i0",[0," View Records","","",-1,-1,0,"displayCharacterVerificationEmployeeSearch.do?hiddenOperation=View"]);
+stm_ep();
+stm_ep();
+stm_aix("p0i1","p0i0",[0,"Acceptance","","",-1,-1,0,"displayAcceptanceAddAction.do","_self","","","","",0,0,0,"","",8,9,0,0,1,"#a84200",0,"#005591"],0,24);
+stm_bpx("p4","p1",[]);
+stm_ep();
+stm_aix("p0i2","p0i0",[0,"W.O.","","",-1,-1,0,"displayWorkOrderMasterNew.do?operation=Add","_self","","","","",0,0,0,"","",10,9,0,0,1,"#9cc2c9",0,"#b28800"],0,24);
+stm_bpx("p6","p2",[1,4]);
+//stm_aix("p6i0","p1i0",[0," Place","","",-1,-1,0,"displaySelectLocationForWorkOrderAction.do?hiddenOperation=Add","_self","","","","",0,0,0,"","",0,0,0,0,1,"#FFFFFF",0,"#b28800"],60,0);
+//stm_aix("p6i1","p6i0",[0," Update","","",-1,-1,0,"displaySelectLocationForWorkOrderAction.do?hiddenOperation=Update"],60,0);
+//stm_aix("p6i2","p6i0",[0," View","","",-1,-1,0,"displayWorkOrderView.do"],60,0);
+//stm_aix("p6i3","p6i0",[0," Place New","","",-1,-1,0,"displayWorkOrderMasterNew.do?operation=Add","_self","","","","",0,0,0,"","",0,0,0,0,1,"#FFFFFF",0,"#b28800"],60,0);
+//stm_aix("p6i5","p6i0",[0," View New","","",-1,-1,0,"displayWorkOrderMasterNewView.do"],60,0);
+stm_ep();
+stm_aix("p0i3","p0i0",[0,"Online Agreement","","",-1,-1,0,"","_self","","","","",0,0,0,"","",10,9,0,0,1,"#9cc2c9",0,"#6b0046"],0,24);
+stm_bpx("p7","p6",[]);
+//stm_aix("p7i0","p1i0",[0," Fwd To Service Provider old","","",-1,-1,0,"displaySelectLocationAndIndustryForAgreement.do?hiddenOperation=Add","_self","","","","",0,0,0,"","",0,0,0,0,1,"#FFFFFF",0,"#6b0046"],150,0);
+stm_aix("p7i0","p1i0",[0," Fwd To Service Provider","","",-1,-1,0,"displayAgreementAction.do?hiddenOperation=SelectServiceProviderForAgreement","_self","","","","",0,0,0,"","",0,0,0,0,1,"#FFFFFF",0,"#6b0046"],150,0);
+
+
+
+//stm_aix("p7i1","p7i0",[0," Fwd By Service Provider old","","",-1,-1,0,"displayAgreementSampleFwdBySE.do?hiddenOperation=SelectAgreementFwdBySE"],150,0);
+stm_aix("p7i1","p7i0",[0," Fwd By Service Provider","","",-1,-1,0,"displayAgreementAction.do?hiddenOperation=SelectServiceProviderForAgreementFwd"],150,0);
+
+
+//stm_aix("p7i2","p7i0",[0," View All old","","",-1,-1,0,"displayAgreementView.do"],150,0);
+stm_aix("p7i2","p7i0",[0," View All","","",-1,-1,0,"displayAgreementAction.do?hiddenOperation=View"],150,0);
+
+
+stm_aix("p7i3","p7i0",[0," Reopen","","",-1,-1,0,"displaySelectLocationAndIndustryForAgreement.do?hiddenOperation=Reopen"],150,0);
+stm_ep();
+stm_aix("p0i5","p0i3",[0,"Authorize"],0,24);
+stm_bpx("p10","p1",[]);
+stm_aix("p10i0","p1i0",[0," New Registration","","",-1,-1,0,"","_self","","","","",0,0,0,"","",14,9,0,0,1,"#FFFFFF",0,"#6b0046"]);
+stm_bpx("p11","p2",[]);
+stm_aix("p11i0","p7i0",[0," Add","","",-1,-1,0,"displayPrincipalEmployerDelegateAction.do?hiddenOperation=add"],50,0);
+stm_aix("p11i1","p7i0",[0," Edit","","",-1,-1,0,"displayPrincipalEmployerDelegateUpdateAction.do?"]);
+stm_aix("p11i2","p7i2",[0," View","","",-1,-1,0,"displayPrincipalEmployerDelegateListAction.do?"]);
+stm_ep();
+stm_aix("p10i0","p1i0",[0," View SP's Authorised Person","","",-1,-1,0,"displayDelegatesForSEDelegateView.do","_self","","","","",0,0,0,"","",0,0,0,0,1,"#FFFFFF",0,"#6b0046"],150,0);
+stm_ep();
+stm_aix("p0i6","p0i1",[0," Assign Location"],0,24);
+stm_bpx("p11","p1",[]);
+stm_aix("p11i0","p7i0",[0," Add","","",-1,-1,0,"displayAssignPrincipalEmployerDelegatorsLocations.do"],60,0);
+stm_aix("p11i0","p7i0",[0," Update","","",-1,-1,0,"displayPrincipalEmployerDelegatorsUpdateLocations.do"],60,0);
+stm_aix("p11i0","p7i0",[0," View","","",-1,-1,0,"displayPrincipalEmployerDelegatorsLocationsView.do"],60,0);
+stm_ep();
+stm_aix("p0i6","p0i1",[0,"Dash Board","","",-1,-1,0,"","_self","","","","",0,0,0,"","",14,9,0,0,1,"#FFFFFF"]);
+stm_bpx("p12","p6",[1,4]);
+stm_aix("p12i0","p10i0",[0," View Attendance Report","","",-1,-1,0,"displayAttendanceReportByAgency.do"]);
+stm_aix("p12i1","p12i0",[0," EPF","","",-1,-1,0,"displaySelectLocationForEmployeeEpfReportAction.do"]);
+stm_aix("p12i2","p12i0",[0," EPF 12A Challan Report","","",-1,-1,0,""]);
+stm_aix("p12i3","p12i0",[0," ESIC","","",-1,-1,0,""]);
+stm_bpx("p13","p2",[1,2]);
+stm_aix("p13i1","p7i0",[0," Form 5","","",-1,-1,0,"displaySelectLocationForESICRegulationForm5.do"],120,0);
+stm_ep();
+stm_aix("p12i4","p12i0",[0," Bill","","",-1,-1,0,"displayBillView.do?hiddenOperation=All"]);
+stm_aix("p12i5","p12i0",[0," All","","",-1,-1,0,"displayViewTheListOfPrincipalEmployerAction.do"]);
+stm_aix("p12i6","p12i0",[0," View In And Out Time","","",-1,-1,0,"displayInAndOutTimeAction.do"]);
+stm_aix("p12i6","p12i0",[0," Approval For Police Verification","","",-1,-1,0,"displayCEListForPoliceApprovalBYPE.do?operation=List"]);
+stm_ep();
+stm_aix("p0i7","p0i6",[0,"HR Reports","","",-1,-1,0,"","_self","","","","",0,0,0,"","",10,9,0,0,1,"#9cc2c9",0,"#b28800"]);
+stm_bpx("p13","p6",[]);
+stm_aix("p13i0","p1i0",[0," Attendance","","",-1,-1,0,"displayAttendanceRecapReport.do"]);
+stm_aix("p13i0","p1i0",[0," Contact Info","","",-1,-1,0,"displayContactInfoReportForPE.do"]);
+stm_ep();
+stm_em();

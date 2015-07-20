@@ -1,0 +1,164 @@
+/*  Add by rakesh for IE paging     */
+ul.fdtablePaginater {display:inline-block;}
+ul.fdtablePaginater {display:inline;}
+ul.fdtablePaginater li {float:left;}
+ul.fdtablePaginater {text-align:center;}
+table { border-bottom:0px; }
+/*  End by rakesh for IE paging     */
+
+/* Demo style */
+p
+        {
+        width:400px;
+        margin:10 auto 1.6em auto;
+        }
+        
+/* Pagination list styles */
+ul.fdtablePaginater
+        {
+        display:table;
+        list-style:none;
+        padding:0;
+        margin:0 auto;
+        text-align:center;
+        height:2em;
+        width:auto;
+        margin-bottom:2em;
+        
+        }
+ul.fdtablePaginater li
+        {
+        display:table-cell;
+        padding-right:2px;
+        color:#666;
+        list-style:none;
+        -moz-user-select:none;
+        -khtml-user-select:none;
+        }
+ul.fdtablePaginater li a.currentPage
+        {
+        border-color:gray !important;
+        color:gray;
+        background-color: gray;
+        }
+ul.fdtablePaginater li a:active
+        {
+        border-color:gray !important;
+     color: gray;
+         background-color: gray;
+        }
+ul.fdtablePaginater li a,
+ul.fdtablePaginater li div
+        {
+        display:block;
+        width:2em;
+        font-size:1em;
+      color: gray;
+        padding:0;
+        margin:0;
+        text-decoration:none;
+         background-color: gray;
+        outline:none;
+        border:1px solid gray;
+        position:absolute left: 410px; top: 34px;
+        font-family:georgia, serif;
+        }
+ul.fdtablePaginater li div
+        {
+        cursor:normal;
+        opacity:.5;
+         background-color: gray;
+        filter:alpha(opacity=50);
+        }
+ul.fdtablePaginater li a span,
+ul.fdtablePaginater li div span
+        {
+        display:block;
+         background-color: gray;
+        line-height:2em;
+        border:1px solid #fff;
+        background:#fff url(../media/gradient.gif) repeat-x 0 -20px;
+        }
+ul.fdtablePaginater li a
+        {
+        cursor:pointer;
+         background-color: gray;
+        }
+ul.fdtablePaginater li a:focus
+        {
+        color:#333;
+        text-decoration:none;
+        border-color:#aaa;
+        
+        }
+.fdtablePaginaterWrap
+        {
+        text-align:center;
+        clear:both;
+        text-decoration:none;
+        padding-top: 10;
+        }
+ul.fdtablePaginater li .next-page span,
+ul.fdtablePaginater li .previous-page span,
+ul.fdtablePaginater li .first-page span,
+ul.fdtablePaginater li .last-page span
+        {
+        font-weight:bold !important;
+        }
+/* Keep the table columns an equal size during pagination */
+td.sized1
+        {
+        width:16em;
+        text-align:left;
+        }
+td.sized2
+        {
+        width:10em;
+        text-align:left;
+        }
+td.sized3
+        {
+        width:7em;
+        text-align:left;
+        }
+tfoot td
+        {
+        text-align:right;
+        font-weight:bold;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        }
+#visibleTotal
+        {
+        text-align:center;
+        letter-spacing:auto;
+        }
+* html ul.fdtablePaginater li div span,
+* html ul.fdtablePaginater li div span
+        {
+        background:#eee;
+        }
+tr.invisibleRow
+        {
+        display:none;
+        visibility:hidden;
+        }
+p.paginationText
+        {
+        font-style:oblique;
+        }
+td.alt {
+	background: gray;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: gray;
+	FONT-FAMILY: verdana, Helvetica, Sans-Serif;
+}
+/* Rakesh added for hiperlink  */
+A { text-decoration: none;
+ont-family: Verdana, Arial, Helvetica, san-serif;
+font-size:10px; font-weight:bold;
+color:gray;
+}
+
+/* Rakesh added for hiperlink  */
